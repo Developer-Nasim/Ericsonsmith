@@ -1,0 +1,278 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .xs-blk{
+        display: block;
+      }
+      .xs-nne{
+          display: none
+      }
+     
+    .cup-detailse .cup-dBox h2 {
+        font-size: 32px;
+        color: #fff;
+        position: relative;
+    }
+.product-banner .container-fluid .col-lg-12 .btn-box img {
+    width: 350px;
+}
+.beir-wrepper {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.contact-wrepper h4 {
+    font-size: 37px; 
+}
+.contact-form form input { 
+    padding: 10px; 
+}
+.contact-form form textarea {
+    width: 100%;
+    padding: 15px; 
+    height: 120px; 
+}
+img.hero-img {
+    width: 100%;
+    height: 500px;
+}
+.header-area { 
+    height: auto; 
+}
+.logIn-btn {
+    position: absolute;
+    top: -95px;
+    right: 0;
+}
+.mean-bar {
+    right: -105px;
+    top: -30px;
+}
+.mobile-menu.mean-container {
+    width: 600px;
+}
+a.active-menu {
+    color: red !important;
+    border-bottom: 2px solid red !important;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .beir-wrepper {
+        padding-top: 0;
+        padding-bottom: 50px;
+    } 
+    .xs-blk{
+        display: block;
+      }
+      .xs-nne{
+          display: none
+      }
+      .hero-box {
+        margin-bottom: 70px;
+    }
+    .cup-dBox.imgsBOX {
+        position: relative;
+        top: 0;
+    }
+    .cup-detailse .cup-dBox {
+        padding-top: 20px;
+    }
+    .cup-detailse { 
+        height: auto; 
+        padding: 70px 0;
+    }
+    .product-banner .container-fluid .col-lg-12 .img-area {
+        display: unset;
+    }
+    .product-banner .container-fluid .col-lg-12 .img-area img {
+        height: 265px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .product-banner .container-fluid .col-lg-12 .btn-box img {
+        width: 100%;
+    }
+    .secton-padding2 {
+        padding: 45px 0;
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .footer-widget {
+        margin-top: 40px;
+    }
+    .footer-widget.logo-footer {
+        text-align: center;
+    }
+.xsnone{
+    display: none;
+}
+
+.product-slider.owl-carousel.text-center.owl-loaded.owl-drag .owl-nav .owl-next { 
+    display: none;
+}
+.product-slider.owl-carousel.text-center.owl-loaded.owl-drag .owl-nav .owl-prev {  
+    display: none;
+}
+
+img.hero-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+.beir-slider-item img { 
+    height: 315px;
+}
+.contact-form form input { 
+    width: 100%;
+    padding: 10px; 
+}
+.contact-form form input[type="email"] {
+    margin-left: 0;
+}
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px; 
+    height: 110px; 
+}
+.contact-area.secton-padding { 
+    padding-top: 20px;
+}
+.contact-wrepper h4 {
+    font-size: 32px;
+    color: #fff;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.contact-form form a {
+    width: 135px;
+    display: block;
+    float: right;
+    background: red;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-family: MyriadProRegular;
+    padding-left: 15px;
+    word-spacing: 40px;
+    padding-right: 0;
+    position: relative;
+}
+.header-area { 
+    height: auto; 
+}
+.mean-bar {
+    right: 20px;
+    top: -35px;
+}
+.mobile-menu.mean-container {
+    width: 291px;
+    margin-left: 30px;
+}
+.mobile-menu.mean-container {
+    width: 575px;
+    margin-left: 30px;
+}
+.mean-container .mean-nav { 
+    margin-top: 30px; 
+}
+a.active-menu {
+    color: red !important;
+    border-bottom: 2px solid red !important;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.contact-form form a {
+    width: 160px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.hero-box {
+    margin-bottom: 70px;
+}
+.cup-dBox.imgsBOX {
+    position: relative;
+    top: 0;
+}
+.cup-detailse .cup-dBox {
+    padding-top: 20px;
+}
+.cup-detailse { 
+    height: auto; 
+    padding: 70px 0;
+}
+.beir-slider-item img {
+    width: 85% !important;
+    float: right;
+    height: 385px;
+}
+ 
+.contact-area.secton-padding { 
+    padding-top: 20px;
+}
+.contact-wrepper h4 {
+    font-size: 32px;
+    color: #fff;
+    word-spacing: 5px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.contact-form form input { 
+    padding: 10px; 
+}
+.contact-form form textarea { 
+    height: 110px; 
+}
+img.hero-img {
+    width: 100%;
+    height: 500px;
+}
+.product-slider.owl-carousel.text-center.owl-loaded.owl-drag .owl-nav .owl-next { 
+    right: -24px; 
+    font-size: 26px; 
+}
+.product-slider.owl-carousel.text-center.owl-loaded.owl-drag .owl-nav .owl-prev {  
+    font-size: 26px; 
+    left: -5px
+}
+
+.product-banner .container-fluid .col-lg-12 .btn-box img {
+    width: 55%;
+}
+a.menu-barICON {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 35px; 
+    top: 0;
+    right: 0;
+}
+.mean-bar {
+    top: -35px;
+}
+.mobile-menu.mean-container {
+    width: 500px;
+}
+.mean-container .mean-nav { 
+    margin-top: 30px; 
+}
+
+
+}

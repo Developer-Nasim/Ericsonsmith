@@ -1,0 +1,618 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Sample - Corporate Business Bootstrap4 HTML5 Template
+    Template URI: site.com
+    Description: Sample - Corporate Business Bootstrap4 HTML5 Template
+    Author: BasicTheme
+    Author URI: site.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Theme default CSS
+	02. Header
+    03. Hero
+	04. Footer
+
+-----------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700|Roboto:400,500,700,900&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Dancing Script', cursive; */
+ 
+@font-face {
+  font-family: MyriadProRegular;
+  src: url(../fonts/MyriadProRegular.ttf);
+}@font-face {
+  font-family: MyriadProBold;
+  src: url(../fonts/MyriadProBold.ttf);
+}@font-face {
+  font-family: MyriadProBlack;
+  src: url(../fonts/MyriadProBlack.otf);
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #666;
+  font-size: 15px; 
+  overflow-x: hidden;
+}
+
+.img, img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
+.fix {
+  overflow: hidden; }
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+
+button {
+  cursor: pointer; }
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+a,
+button {
+  color: inherit;
+  outline: medium none; }
+
+button:focus, input:focus, input:focus, textarea, textarea:focus {
+  outline: 0; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: MyriadProBold;
+  font-weight: normal;
+  color: #333333;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: normal; }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 500; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none; }
+.secton-padding{
+  padding: 80px 0;
+  overflow: hidden;
+}
+.secton-padding2{
+  padding: 120px 0;
+  overflow: hidden;
+}
+.xs-blk{
+  display: none;
+}
+ /* default css end ====================*/
+ .header-area {
+  width: 100%;
+  height: 99px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #000000d4, transparent);
+  border-bottom: 1px solid #2c333b;
+  display: flex;
+  align-items: center;
+}
+
+.header-area .menu-area {
+  text-align: center;
+}
+
+.header-area .menu-area ul li a {
+  display: inline-block;
+  font-family: MyriadProBold;
+  font-size: 15px;
+  color: #ffe599;
+  text-transform: uppercase;
+  margin: 40px 20px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: 0;
+  padding-bottom: 36px;
+  transition: .3s;
+}
+
+.header-area .menu-area ul li {
+  display: inline-block;
+}
+
+.header-area .menu-area ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.logIn-btn {
+  text-align: right;
+  margin-top: 34px;
+}
+
+.theme-btn {
+  color: #fff;
+  background: red;
+  padding: 5px 40px;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: MyriadProRegular;
+}
+.theme-btn:hover {
+  color: #fff; 
+}
+
+.logIn-btn a.theme-btn {
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+a.active-menu {
+  border-bottom: 2px solid white !important;
+}
+.mean-container .mean-nav {
+  background: #ffe599 none repeat scroll 0 0; 
+}
+.mean-container .mean-nav ul li a {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  color: #333; 
+  font-weight: 700;
+}
+/* header-area css END =================*/
+.hero-area {
+  background: #ffe599;
+}
+img.hero-img {
+  width: 100%;
+  height: 100vh;
+}
+.hero-box h5 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.hero-box.fBox.text-center img {
+  width: 110px;
+}
+
+.hero-box.fBox.text-center h5 {
+  font-family: MyriadProRegular;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.hero-box p { 
+  line-height: 24px;
+}
+
+.hero-box a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #e11627;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.hero-box  a.theme-btn {
+  color: #fff;
+}
+
+/* hero-area css END ===============*/
+a.menu-barICON {
+  font-size: 22px;
+  color: #fff;
+  margin-top: 35px;
+  display: block;
+}
+.sidebar {
+  position: absolute;
+  width: 320px;
+  height: 100vh;
+  background: #d82130;
+  right: -320px;
+  top: 0;
+  transition: .3s;
+  padding-top: 75px;
+}
+a.close-icon.menu-barICON {
+  position: absolute;
+  top: -95px;
+  left: 0;
+}
+.sidebar a.close-icon {
+  font-size: 30px;
+  color: #fff;
+  margin: 20px;
+  display: block;
+  margin-top: 10px;
+}
+.sidebar nav ul li {
+  display: block;
+}
+
+.sidebar nav ul li a {
+  padding-top: 10px;
+  display: block;
+  padding-left: 15px;
+  margin-top: 10px;
+  color: #fff;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.sidebar.add{
+  right: 0;
+}
+.sidebar.remove{
+right: -320px;
+}
+
+/* sidebar css END ====================*/
+
+.cup-detailse {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  background: #111111;
+}
+
+.cup-detailse .cup-dBox {
+  padding-top: 100px;
+}
+
+.cup-detailse .cup-dBox h2 {
+  font-size: 38px;
+  color: #fff;
+  position: relative;
+}
+
+.cup-detailse .cup-dBox p {
+  color: #d0d0d0;
+  font-family: MyriadProRegular;
+  font-size: 16px;
+}
+.cup-detailse .cup-dBox h2.fTWO{
+  width: 42px;
+  margin: auto;
+}
+.cup-detailse .cup-dBox h2.fTWO:after {
+  content: "+";
+  position: absolute;
+  left: -25px;
+  top: -2px;
+}
+.cup-dBox.imgsBOX {
+  position: relative;
+  top: -50px;
+}
+
+/* cup-detailse css END ============= */
+.slider-item img {
+  width: 100px !important;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.slider-item h3 {
+  font-size: 26px;
+  color: #111111;
+}
+
+.slider-item h3 span {
+  font-size: 22px;
+  color: #e11627;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.product-slider.owl-carousel.text-center.owl-loaded.owl-drag .owl-nav .owl-prev {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translate(-50%);
+  font-size: 32px;
+  color: #111;
+}
+.product-slider.owl-carousel.text-center.owl-loaded.owl-drag .owl-nav .owl-next {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  transform: translate(-50%);
+  font-size: 32px;
+  color: #111;
+}
+
+/* product-area css END ============== */
+
+.product-banner {
+  background: #000;
+  position: relative;
+}
+
+.product-banner .container-fluid {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.product-banner .container-fluid .col-lg-12 {
+  margin: 0;
+  padding: 0;
+}
+
+.product-banner .container-fluid .col-lg-12 .img-area {
+  display: flex;
+}
+
+.product-banner .container-fluid .col-lg-12 .img-area img {
+  width: 100%;
+}
+
+.product-banner .container-fluid .col-lg-12 .btn-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.product-banner .container-fluid .col-lg-12 .btn-box img {
+  width: 530px;
+}
+/* product-banner css END ============== */
+ 
+.about-bier.secton-padding {
+  padding-bottom: 120px;
+}
+.beir-wrepper {
+  padding-top: 70px;
+}
+
+.beir-wrepper h4 {
+  font-size: 33px;
+  color: #e11627;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.beir-wrepper h3 {
+  font-size: 31px;
+  padding-bottom: 10px;
+  line-height: 36px;
+}
+
+.beir-wrepper  a.theme-btn {
+  margin-top: 15px;
+}
+.beir-slider-item img {
+  width: 85% !important;
+  float: right;
+  height: 445px;
+}
+.about-bier.secton-padding {
+  padding-bottom: 120px;
+}
+
+.beir-slider-item img {
+  width: 85% !important;
+  float: right;
+  height: 445px;
+}
+
+.beir-slider.owl-carousel.owl-loaded.owl-drag .owl-dots {
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.beir-slider.owl-carousel.owl-loaded.owl-drag .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #e1d8bf;
+  margin: 5px;
+  transition: .3s;
+}
+
+.beir-slider.owl-carousel.owl-loaded.owl-drag .owl-dots .owl-dot.active {
+  border: 1px solid #e11627;
+  background: #e11627;
+}
+.beir-slider {
+  position: relative; 
+  z-index: 2;
+}
+
+.beir-slider:after {content: "";position: absolute;width: 20%;height: 80%;top: 10%;background: url(../img/store.png);z-index: -1;background-size: cover;background-position: right;left: 0;}
+
+
+/* about-area css  END */
+
+.contact-area.secton-padding {
+  padding-bottom: 15px;
+}
+.contact-area:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00000075;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.contact-wrepper h4 {
+  font-size: 42px;
+  color: #fff;
+  word-spacing: 5px;
+}
+.contact-area:after {content: "";position: absolute;width: 100%;height: 100%;background: linear-gradient(45deg, #00000066, transparent);top: 0;left: 0;z-index: -1;}
+
+.contact-wrepper h4 {
+    font-size: 42px;
+    color: #fff;
+    word-spacing: 5px;
+    margin-top: 30px;
+}
+
+.contact-form form input {
+    display: inline-block;
+    width: 47%;
+    padding: 15px;
+    border: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact-form form ::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-family: MyriadProRegular;
+}
+
+.contact-form form input[type="email"] {
+    margin-left: 23px;
+}
+
+.contact-form form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    font-family: MyriadProRegular;
+    height: 155px; 
+    outline: none;
+}
+.contact-form form a {
+  width: 170px;
+  display: block;
+  float: right;
+  background: red;
+  padding: 15px;
+  font-size: 14px;
+  color: #fff;
+  font-family: MyriadProRegular;
+  padding-left: 35px;
+  word-spacing: 40px;
+  padding-right: 0;
+  position: relative;
+}
+.contact-area.secton-padding {
+  padding-bottom: 15px;
+}
+
+.contact-form form a svg {
+  font-size: 22px;
+  position: absolute;
+  right: 15px;
+}
+
+/* contact-area css END */
+.footer-area {
+  background: #111111;
+}
+
+.footer-area .footer-widget h5 {
+  font-size: 14px;
+  color: #fff;
+  font-family: MyriadProRegular;
+  line-height: 30px;
+}
+
+.footer-area .footer-widget p {
+  font-size: 14px;
+  color: #9b9b9b;
+  line-height: 24px;
+  font-family: MyriadProRegular;
+}
+
+.footer-area .footer-widget a {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 18px;
+}
+.footer-area .footer-widget a.footer-logo{
+  margin-right: 0px;
+}
+
+/* footer-area css END */
+
+
+
+
+
